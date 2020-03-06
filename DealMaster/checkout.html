@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CheckOut</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+</head>
+<body class="checkout">
+<header>
+    <div class="desktop-header">
+        <div class="container">
+            <ul class="menu text-center">
+                <li>
+                    <a href="magazine.html">Magazine</a>
+                    <a href="podcast.html">Podcast</a>
+                    <a href="index.html"><img src="assets/images/Agency%20dealmasters%20Logo.svg" class="logo"></a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <a href="#" class="header-button">DOWNLOAD EBOOK</a>
+        </div>
+    </div>
+    <div class="mobile-header text-center">
+        <div class="mobile-side-menu">
+            <span class="menu-close"><i class="fa fa-times"></i></span>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                    <a href="magazine.html">Magazine</a>
+                    <a href="podcast.html">Podcast</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <a href="https://facebook.com" target="_blank" class="social-link"><i class="fa fa-facebook"></i></a>
+            <a href="https://linkedin.com" target="_blank" class="social-link"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <span class="toggle-menu"><i class="fa fa-bars"></i></span>
+        <a href="index.html"><img src="assets/images/Agency%20dealmasters%20Logo.svg" class="logo"></a>
+        <a href="#" class="header-button">DOWNLOAD EBOOK</a>
+    </div>
+</header>
+<div class="main-content">
+    <div class="check-section section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10 checkout-content">
+                    <h2 class="checkout-title">Check Out</h2>
+                    <h4 class="payment-info">Payment Information <img src="assets/images/checkout/icon-Padlock.png"></h4>
+                    <p class="payment-type text-grey">We accept the following card types:</p>
+                    <img class="accept-img" src="assets/images/checkout/payment.png">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-10 col-sm-12">
+                            <form class="checkout-form" action="checkouy-thankyou.html">
+                                <div class="form-group row align-items-center">
+                                    <label for="card_name" class="col-sm-4 col-form-label text-right">Name of card<span>*</span></label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="card_name" name="card_name" required placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-group row align-items-center">
+                                    <label for="card_num" class="col-sm-4 col-form-label text-right">Card number<span>*</span></label>
+                                    <div class="col-sm-8">
+                                        <div class="input-group">
+                                            <input type="number" class="form-control" id="card_num" name="card_num" required placeholder="1234 1234 1234 1234">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text"><img src="assets/images/checkout/credit.png"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row align-items-center">
+                                    <label class="col-sm-4 col-form-label text-right">Expiration date<span>*</span></label>
+                                    <div class="col-sm-4 col-6 expire_month">
+                                        <div class="my-select">
+                                            <select class="custom-select" required>
+                                            <option disabled selected value="">MM</option>
+                                            <option value="1">01</option>
+                                            <option value="2">02</option>
+                                            <option value="3">03</option>
+                                            <option value="4">04</option>
+                                            <option value="5">05</option>
+                                            <option value="6">06</option>
+                                            <option value="7">07</option>
+                                            <option value="8">08</option>
+                                            <option value="9">09</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-6">
+                                        <div class="my-select">
+                                            <select class="custom-select" required>
+                                            <option disabled selected value="">YYYY</option>
+                                            <option value="2019">2019</option>
+                                            <option value="2020">2020</option>
+                                            <option value="2021">2021</option>
+                                            <option value="2022">2022</option>
+                                            <option value="2023">2023</option>
+                                            <option value="2024">2024</option>
+                                            <option value="2025">2025</option>
+                                            <option value="2026">2026</option>
+                                            <option value="2027">2027</option>
+                                            <option value="2028">2028</option>
+                                            <option value="2029">2029</option>
+                                            <option value="2030">2030</option>
+                                            <option value="2031">2031</option>
+                                            <option value="2032">2032</option>
+                                            <option value="2033">2033</option>
+                                            <option value="2034">2034</option>
+                                            <option value="2035">2035</option>
+                                            <option value="2036">2036</option>
+                                            <option value="2037">2037</option>
+                                            <option value="2038">2038</option>
+                                            <option value="2039">2039</option>
+                                            <option value="2040">2040</option>
+                                            <option value="2041">2041</option>
+                                            <option value="2042">2042</option>
+                                            <option value="2043">2043</option>
+                                            <option value="2044">2044</option>
+                                            <option value="2045">2045</option>
+                                            <option value="2046">2046</option>
+                                            <option value="2047">2047</option>
+                                            <option value="2048">2048</option>
+                                            <option value="2049">2049</option>
+                                            <option value="2050">2050</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row align-items-center">
+                                    <label for="cvv" class="col-sm-4 col-form-label text-right">CVV/CVC<span>*</span></label>
+                                    <div class="col-sm-4">
+                                        <input type="number" class="form-control" id="cvv" name="cvv" required placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="cvv" class="col-sm-4 col-form-label text-right"></label>
+                                    <div class="col-sm-8">
+                                        <button type="submit" class="custom-button">ORDER NOW</button>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="desktop-footer">
+        <div class="container">
+            <div class="footer-1">
+                <div class="row">
+                    <div class="col-md-5 col-sm-12">
+                        <img class="footer-logo w-100" src="assets/images/Agency%20dealmasters%20Logo-colour-2.svg">
+                    </div>
+                    <div class="col-md-2 col-sm-4">
+                        <h5 class="footer-menu-title">Menu</h5>
+                        <a class="footer-link" href="index.html">Home</a>
+                        <a class="footer-link" href="#">Magazine</a>
+                        <a class="footer-link" href="#">Psdcast</a>
+                        <a class="footer-link" href="#">Blog</a>
+                        <a class="footer-link" href="#">Contact</a>
+                    </div>
+                    <div class="col-md-2 col-sm-4">
+                        <h5 class="footer-menu-title">Contact</h5>
+                        <p class="footer-desc">+44 121 318 9773<br>Floor 21,<br>Alpha Works,<br>Alpha Tower,<br>Birmingham<br>B1 1TT</p>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <h5 class="footer-menu-title">Subscribe Now</h5>
+                        <form class="subscribe-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="validationDefaultUsername" placeholder="Your email" aria-describedby="inputGroupPrepend2" required>
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="inputGroupPrepend2"><i class="fa fa-user"></i></span>
+                                </div>
+                                <button type="submit" class="custom-button">SUBSCRIBE NOW</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-sm-8">
+                        <p class="copyright">© 2019. Designed by Chuck Studio for Agency Dealmasters. All rights reserved.</p>
+                    </div>
+                    <div class="col-sm-4 text-right">
+                        <a href="https://facebook.com" target="_blank" class="social-link"><i class="fa fa-facebook"></i></a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-footer">
+        <div class="footer-1 pb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-3">
+                        <img class="footer-logo w-100 mb-4" src="assets/images/Agency%20dealmasters%20Logo-colour-2.svg">
+                        <form class="subscribe-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="validationDefaultUsername1" placeholder="Your email" aria-describedby="inputGroupPrepend1" required>
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="inputGroupPrepend1"><i class="fa fa-user"></i></span>
+                                </div>
+                                <button type="submit" class="custom-button">SUBSCRIBE NOW</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-4">
+                        <h5 class="footer-menu-title">Menu</h5>
+                        <a class="footer-link" href="index.html">Home</a>
+                        <a class="footer-link" href="#">Magazine</a>
+                        <a class="footer-link" href="#">Psdcast</a>
+                        <a class="footer-link" href="#">Blog</a>
+                        <a class="footer-link" href="#">Contact</a>
+                    </div>
+                    <div class="col-8">
+                        <h5 class="footer-menu-title">Contact</h5>
+                        <p class="footer-desc">+44 121 318 9773<br>Floor 21,<br>Alpha Works,<br>Alpha Tower,<br>Birmingham<br>B1 1TT</p>
+                    </div>
+                    <div class="col-12 mt-4 mb-4">
+                        <a href="https://facebook.com" target="_blank" class="social-link"><i class="fa fa-facebook"></i></a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                    <div class="col-12 pb-3 pt-2">
+                        <p class="copyright">© 2019.<br>Designed by Chuck Studio for Agency Dealmasters. <br>All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    var x, i, j, selElmnt, a, b, c;
+    /*look for any elements with the class "custom-select":*/
+    x = document.getElementsByClassName("my-select");
+    for (i = 0; i < x.length; i++) {
+        selElmnt = x[i].getElementsByTagName("select")[0];
+        /*for each element, create a new DIV that will act as the selected item:*/
+        a = document.createElement("DIV");
+        a.setAttribute("class", "select-selected");
+        a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+        x[i].appendChild(a);
+        /*for each element, create a new DIV that will contain the option list:*/
+        b = document.createElement("DIV");
+        b.setAttribute("class", "select-items select-hide");
+        for (j = 1; j < selElmnt.length; j++) {
+            /*for each option in the original select element,
+            create a new DIV that will act as an option item:*/
+            c = document.createElement("DIV");
+            c.innerHTML = selElmnt.options[j].innerHTML;
+            c.addEventListener("click", function(e) {
+                /*when an item is clicked, update the original select box,
+                and the selected item:*/
+                var y, i, k, s, h;
+                s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                h = this.parentNode.previousSibling;
+                for (i = 0; i < s.length; i++) {
+                    if (s.options[i].innerHTML == this.innerHTML) {
+                        s.selectedIndex = i;
+                        h.innerHTML = this.innerHTML;
+                        y = this.parentNode.getElementsByClassName("same-as-selected");
+                        for (k = 0; k < y.length; k++) {
+                            y[k].removeAttribute("class");
+                        }
+                        this.setAttribute("class", "same-as-selected");
+                        break;
+                    }
+                }
+                h.click();
+            });
+            b.appendChild(c);
+        }
+        x[i].appendChild(b);
+        a.addEventListener("click", function(e) {
+            /*when the select box is clicked, close any other select boxes,
+            and open/close the current select box:*/
+            e.stopPropagation();
+            closeAllSelect(this);
+            this.nextSibling.classList.toggle("select-hide");
+            this.classList.toggle("select-arrow-active");
+        });
+    }
+    function closeAllSelect(elmnt) {
+        /*a function that will close all select boxes in the document,
+        except the current select box:*/
+        var x, y, i, arrNo = [];
+        x = document.getElementsByClassName("select-items");
+        y = document.getElementsByClassName("select-selected");
+        for (i = 0; i < y.length; i++) {
+            if (elmnt == y[i]) {
+                arrNo.push(i)
+            } else {
+                y[i].classList.remove("select-arrow-active");
+            }
+        }
+        for (i = 0; i < x.length; i++) {
+            if (arrNo.indexOf(i)) {
+                x[i].classList.add("select-hide");
+            }
+        }
+    }
+    /*if the user clicks anywhere outside the select box,
+    then close all select boxes:*/
+    document.addEventListener("click", closeAllSelect);
+</script>
+</body>
+</html>
