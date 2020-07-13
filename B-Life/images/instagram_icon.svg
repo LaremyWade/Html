@@ -1,0 +1,11 @@
+<svg id="noun_instagram_3350460" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.887" height="19.887" viewBox="0 0 19.887 19.887">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#001028"/>
+      <stop offset="1" stop-color="#4bbfd5"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_102" data-name="Path 102" d="M16.572,0H3.314A3.314,3.314,0,0,0,0,3.314V16.572a3.314,3.314,0,0,0,3.314,3.314H16.572a3.314,3.314,0,0,0,3.314-3.314V3.314A3.314,3.314,0,0,0,16.572,0ZM18.23,16.572a1.657,1.657,0,0,1-1.657,1.657H3.314a1.657,1.657,0,0,1-1.657-1.657V3.314A1.657,1.657,0,0,1,3.314,1.657H16.572A1.657,1.657,0,0,1,18.23,3.314Z" fill="url(#linear-gradient)"/>
+  <path id="Path_103" data-name="Path 103" d="M10.972,6a4.972,4.972,0,1,0,4.972,4.972A4.972,4.972,0,0,0,10.972,6Zm0,8.286a3.314,3.314,0,1,1,3.314-3.314A3.314,3.314,0,0,1,10.972,14.286Z" transform="translate(-1.028 -1.028)" fill="url(#linear-gradient)"/>
+  <circle id="Ellipse_77" data-name="Ellipse 77" cx="1.5" cy="1.5" r="1.5" transform="translate(13.887 3)" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80.23" height="45.458" viewBox="0 0 80.23 45.458">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#001028"/>
+      <stop offset="1" stop-color="#4bbfd5"/>
+    </linearGradient>
+  </defs>
+  <g id="noun_Laptop_84266" transform="translate(-0.178 -21.771)">
+    <path id="Path_8" data-name="Path 8" d="M37.077,64.585c0,.072.193.241.514.241h9.131c.319,0,.513-.168.513-.241a.574.574,0,0,1,.573-.574H74.629V24.4A2.634,2.634,0,0,0,72,21.771H12.314a2.633,2.633,0,0,0-2.63,2.63v39.61H36.5A.573.573,0,0,1,37.077,64.585ZM11.307,24.4A1.008,1.008,0,0,1,12.314,23.4H72A1.009,1.009,0,0,1,73,24.4V62.857h-61.7Z" transform="translate(-1.852)" fill="url(#linear-gradient)"/>
+    <path id="Path_9" data-name="Path 9" d="M76.348,77.589a7.441,7.441,0,0,0,4.039-1.013l.021,0V74.946H45.955c0,.447-.488.813-1.086.813H35.738c-.6,0-1.086-.366-1.086-.813H.2v1.627l-.021,0a7.446,7.446,0,0,0,4.04,1.013Z" transform="translate(0 -10.36)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
