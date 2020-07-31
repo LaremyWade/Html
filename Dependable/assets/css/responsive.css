@@ -1,0 +1,734 @@
+/*==============================================================
+    Laptop, Desktop
+================================================================*/
+@media (min-width: 1200px){
+    #services-area .col-lg-2{
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar.affix .navbar-brand.logo,
+    .navbar .navbar-brand.logo-two {
+        display: none !important
+    }
+    .navbar.affix .navbar-brand.logo-two {
+        display: block !important
+    }
+    .full-height {
+        height: 600px;
+    }
+    .service-single{
+        margin: 0 0 15px;
+    }
+}
+
+
+/*==============================================================
+    Tablet
+================================================================*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar.affix .navbar-brand.logo,
+    .navbar .navbar-brand.logo-two {
+        display: none !important
+    }
+    .navbar.affix .navbar-brand.logo-two {
+        display: block !important
+    }
+    .navbar-brand {
+        padding: 10px 15px;
+    }
+    .navbar-brand > img {
+        max-width: 100px;
+    }
+    nav.navbar.bootsnav .navbar-toggle {
+        top: 3px;
+        padding: 2px 6px;
+    }
+    nav.navbar.affix.bootsnav .navbar-toggle {
+        top: 0;
+        padding: 2px 6px;
+        background-color: #000;
+        color: #fff
+    }
+    #navbar-menu {
+        background-color: #000;
+        padding-bottom: 20px
+    }
+    .navbar.affix #navbar-menu {
+        background-color: #fff;
+    }
+    nav.navbar .navbar-brand img.logo {
+        margin: 2px auto 0;
+    }
+    .navbar.affix .navbar-brand img.logo {
+        margin: 0 auto 0;
+    }
+    .full-height {
+        height: 500px;
+    }
+    h1,
+    .cd-headline {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .slide-caption {
+        padding: 0 8%;
+        width: 80%;
+    }
+    .silder .owl-nav div {
+        font-size: 24px;
+        width: 50px;
+        height: 50px;
+        top: 55%;
+        left: 10px;
+        padding: 9px 13px;
+    }
+    .silder .owl-nav .owl-next {
+        right: 10px;
+        padding: 10px 14px;
+    }
+    .slide-btn a {
+        padding: 8px 18px;
+    }
+    #about-area {
+        padding: 80px 0 65px;
+    }
+    .about-image {
+        margin: 0 0 30px;
+    }
+    #services-area {
+        padding: 70px 0 65px;
+    }
+    .service-single,
+    .team-single {
+        margin: 0 0 15px;
+    }
+    #team-area {
+        padding: 70px 0 65px;
+    }
+    .why-choose-content {
+        padding-right: 0;
+    }
+    .ribbon {
+        left: -72px;
+        top: 28px;
+        padding: 2px 0;
+        font-size: 12px;
+    }
+    .contact-info {
+        padding-left: 0;
+    }
+    .blog-sidebar {
+        margin: 0 0 30px
+    }
+}
+
+
+/*==============================================================
+    Large Mobile
+================================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .general-page .full-height {
+        height: 300px;
+    }
+    .navbar.affix .navbar-brand.logo,
+    .navbar .navbar-brand.logo-two {
+        display: none !important
+    }
+    .navbar.affix .navbar-brand.logo-two {
+        display: block !important
+    }
+    .navbar-brand {
+        padding: 10px 15px;
+    }
+    .navbar-brand > img {
+        max-width: 100px;
+    }
+    nav.navbar.bootsnav .navbar-toggle {
+        top: 3px;
+        padding: 2px 6px;
+    }
+    nav.navbar.affix.bootsnav .navbar-toggle {
+        top: 0;
+        padding: 2px 6px;
+        background-color: #000;
+        color: #fff
+    }
+    #navbar-menu {
+        background-color: #000;
+        padding-bottom: 20px
+    }
+    .navbar.affix #navbar-menu {
+        background-color: #fff;
+    }
+    nav.navbar .navbar-brand img.logo {
+        margin: 2px auto 0;
+    }
+    .navbar.affix .navbar-brand img.logo {
+        margin: 0 auto 0;
+    }
+    .full-height {
+        height: 400px;
+    }
+    h1,
+    .cd-headline {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .slide-single.full-height {
+        height: 480px
+    }
+    .slide-caption {
+        padding: 0 5%;
+        width: 100%;
+    }
+    .silder .owl-nav div {
+        font-size: 22px;
+        width: 40px;
+        height: 40px;
+        top: 55%;
+        left: 5px;
+        padding: 6px 8px;
+    }
+    .silder .owl-nav .owl-next {
+        right: 10px;
+        padding: 6px 10px;
+        right: 5px
+    }
+    .silder .owl-dot {
+        height: 3px;
+        width: 30px;
+    }
+    .silder .owl-dots {
+        bottom: 18px;
+    }
+    .slide-btn a {
+        padding: 6px 15px;
+        margin-top: 20px;
+    }
+    #about-area {
+        padding: 60px 0 45px;
+    }
+    .about-image {
+        margin: 0 0 30px;
+    }
+    .section-heading {
+        padding: 0 0 30px;
+    }
+    #services-area {
+        padding: 50px 0 45px;
+    }
+    .service-single,
+    .team-single,
+    .pricing-table-single {
+        margin: 0 0 15px;
+    }
+    #team-area {
+        padding: 70px 0 65px;
+    }
+    #why-choose-us {
+        padding: 50px 0 40px;
+    }
+    .skill-bars {
+        padding: 20px 0 0;
+    }
+    .why-choose-content {
+        padding-right: 0;
+    }
+    #portfolio-area {
+        padding: 50px 0 55px;
+    }
+    .portfolio-menu button {
+        padding: 6px 12px;
+        margin: 0 0 30px;
+    }
+    #pricing-area {
+        padding: 50px 0 45px;
+    }
+    .ribbon {
+        left: -175px;
+        top: 34px;
+    }
+    #video-area {
+        padding: 50px 0 60px;
+    }
+    .team-single img {
+        width: 100%;
+    }
+    #team-area {
+        padding: 50px 0 45px;
+    }
+    #testimonial-area {
+        padding: 55px 0 95px;
+    }
+    #counter-area {
+        padding: 60px 0 10px;
+    }
+    .counter-single {
+        margin: 0 0 40px;
+    }
+    #blog-area {
+        padding: 50px 0 40px;
+    }
+    #contact-area {
+        padding: 50px 0 60px;
+    }
+    .contact-content {
+        padding: 30px 15px 15px;
+        margin: 0
+    }
+    .contact-map{
+        margin: 50px 0 0;
+    }
+    .contact-form #name {
+        margin: 0 0 15px;
+    }
+    .contact-info {
+        padding-left: 0;
+        margin: 30px 0 0
+    }
+    .blog-sidebar {
+        margin: 0 0 30px
+    }
+    .blog-wrap {
+        padding: 60px 0 35px;
+    }
+    .page-title {
+        padding: 120px 0 40px;
+    }
+    .breadcrumb {
+        padding-top: 0;
+    }
+    .blog-details-wrap {
+        padding: 60px 0;
+    }
+    .comment-form #name {
+        margin-bottom: 15px;
+    }
+    #why-choose-us, #testimonial-area, #video-area{
+        background-attachment: scroll;
+    }
+}
+
+
+/*==============================================================
+   Medium Mobile
+================================================================*/
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+
+    #why-choose-us, #testimonial-area, #video-area{
+        background-attachment: scroll;
+    }
+    .general-page .full-height {
+        height: 300px;
+    }
+    body.home #hero-area{
+        background-size: cover;
+    }
+    .navbar.affix .navbar-brand.logo,
+    .navbar .navbar-brand.logo-two {
+        display: none !important
+    }
+    .navbar.affix .navbar-brand.logo-two {
+        display: block !important
+    }
+    .navbar-brand {
+        padding: 10px 15px;
+    }
+    .navbar-brand > img {
+        max-width: 100px;
+    }
+    nav.navbar.bootsnav .navbar-toggle {
+        top: 3px;
+        padding: 2px 6px;
+    }
+    nav.navbar.affix.bootsnav .navbar-toggle {
+        top: 0;
+        padding: 2px 6px;
+        background-color: #000;
+        color: #fff
+    }
+    #navbar-menu {
+        background-color: #000;
+        padding-bottom: 20px
+    }
+    .navbar.affix #navbar-menu {
+        background-color: #fff;
+    }
+    nav.navbar .navbar-brand img.logo {
+        margin: 2px auto 0;
+    }
+    .navbar.affix .navbar-brand img.logo {
+        margin: 0 auto 0;
+    }
+    .full-height {
+        height: 400px;
+    }
+    h1,
+    .cd-headline {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .cd-headline.clip span {
+        padding: 0
+    }
+    .hero-content p {
+        margin: 8px 0 0;
+    }
+    .slide-single.full-height {
+        height: 480px
+    }
+    .slide-caption {
+        padding: 0 5%;
+        width: 100%;
+    }
+    .silder .owl-nav div {
+        font-size: 22px;
+        width: 40px;
+        height: 40px;
+        top: 55%;
+        left: 5px;
+        padding: 6px 8px;
+    }
+    .silder .owl-nav .owl-next {
+        right: 10px;
+        padding: 6px 10px;
+        right: 5px
+    }
+    .slide-btn a {
+        padding: 6px 15px;
+        margin-top: 20px;
+    }
+    .silder .owl-dot {
+        height: 3px;
+        width: 30px;
+    }
+    .silder .owl-dots {
+        bottom: 15px;
+    }
+    #about-area {
+        padding: 60px 0 45px;
+    }
+    .about-image {
+        margin: 0 0 30px;
+    }
+    .section-heading {
+        padding: 0 0 30px;
+    }
+    #services-area {
+        padding: 50px 0 45px;
+    }
+    .service-single,
+    .team-single,
+    .pricing-table-single {
+        margin: 0 0 15px;
+    }
+    #team-area {
+        padding: 70px 0 65px;
+    }
+    #why-choose-us {
+        padding: 50px 0 40px;
+    }
+    .skill-bars {
+        padding: 20px 0 0;
+    }
+    .why-choose-content {
+        padding-right: 0;
+    }
+    #portfolio-area {
+        padding: 50px 0 55px;
+    }
+    .portfolio-menu button {
+        padding: 5px 5px;
+        margin: 0 0 30px;
+        font-size: 12px;
+    }
+    #pricing-area {
+        padding: 50px 0 45px;
+    }
+    .ribbon {
+        left: -115px;
+        top: 34px;
+    }
+    #video-area {
+        padding: 50px 0 60px;
+    }
+    .team-single img {
+        width: 100%;
+    }
+    #team-area {
+        padding: 50px 0 45px;
+    }
+    #testimonial-area {
+        padding: 55px 0 95px;
+    }
+    #counter-area {
+        padding: 60px 0 10px;
+    }
+    .counter-single {
+        margin: 0 0 40px;
+    }
+    #blog-area {
+        padding: 50px 0 40px;
+    }
+    #contact-area {
+        padding: 50px 0 60px;
+    }
+    .contact-content {
+        padding: 30px 15px 15px;
+        margin: 0
+    }
+    .contact-map{
+        margin: 30px 0 0;
+    }
+    .contact-form #name {
+        margin: 0 0 15px;
+    }
+    .contact-info {
+        padding-left: 0;
+        margin: 30px 0 0
+    }
+    .blog-sidebar {
+        margin: 0 0 30px;
+        padding: 20px 15px 0
+    }
+    .blog-wrap {
+        padding: 60px 0 35px;
+    }
+    .page-title {
+        padding: 120px 0 40px;
+    }
+    .breadcrumb {
+        padding-top: 0;
+    }
+    .pagination > li > a,
+    .pagination > li:first-child > a,
+    .pagination > li:last-child > a {
+        width: 40px;
+        height: 40px;
+        line-height: 28px;
+    }
+    .blog-details-wrap {
+        padding: 60px 0;
+    }
+    .comment-form #name {
+        margin-bottom: 15px;
+    }
+}
+
+
+/*==============================================================
+    Small Mobile
+================================================================*/
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    #why-choose-us, #testimonial-area, #video-area{
+        background-attachment: scroll;
+    }
+    .navbar.affix .navbar-brand.logo,
+    .navbar .navbar-brand.logo-two {
+        display: none !important
+    }
+    .navbar.affix .navbar-brand.logo-two {
+        display: block !important
+    }
+    .navbar-brand {
+        padding: 10px 15px;
+    }
+    .navbar-brand > img {
+        max-width: 100px;
+    }
+    nav.navbar.bootsnav .navbar-toggle {
+        top: 3px;
+        padding: 2px 6px;
+    }
+    nav.navbar.affix.bootsnav .navbar-toggle {
+        top: 0;
+        padding: 2px 6px;
+        background-color: #000;
+        color: #fff
+    }
+    #navbar-menu {
+        background-color: #000;
+        padding-bottom: 20px
+    }
+    .navbar.affix #navbar-menu {
+        background-color: #fff;
+    }
+    nav.navbar .navbar-brand img.logo {
+        margin: 2px auto 0;
+    }
+    .navbar.affix .navbar-brand img.logo {
+        margin: 0 auto 0;
+    }
+    .full-height {
+        height: 400px;
+    }
+    h1,
+    .cd-headline {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .cd-headline.clip span {
+        padding: 0
+    }
+    .hero-content p {
+        margin: 8px 0 0;
+    }
+    .slide-single.full-height {
+        height: 480px
+    }
+    .slide-caption {
+        padding: 0 5%;
+        width: 100%;
+    }
+    .silder .owl-nav div {
+        font-size: 22px;
+        width: 40px;
+        height: 40px;
+        top: 55%;
+        left: 5px;
+        padding: 6px 8px;
+    }
+    .silder .owl-nav .owl-next {
+        right: 10px;
+        padding: 6px 10px;
+        right: 5px
+    }
+    .slide-btn a {
+        padding: 6px 15px;
+        margin-top: 20px;
+    }
+    .silder .owl-dot {
+        height: 3px;
+        width: 30px;
+    }
+    .silder .owl-dots {
+        bottom: 15px;
+    }
+    #about-area {
+        padding: 60px 0 45px;
+    }
+    .about-image {
+        margin: 0 0 30px;
+    }
+    .section-heading {
+        padding: 0 0 30px;
+    }
+    #services-area {
+        padding: 50px 0 45px;
+    }
+    .service-single,
+    .team-single,
+    .pricing-table-single {
+        margin: 0 0 15px;
+    }
+    #team-area {
+        padding: 70px 0 65px;
+    }
+    #why-choose-us {
+        padding: 50px 0 40px;
+    }
+    .skill-bars {
+        padding: 20px 0 0;
+    }
+    .why-choose-content {
+        padding-right: 0;
+    }
+    #portfolio-area {
+        padding: 50px 0 55px;
+    }
+    .portfolio-menu button {
+        padding: 5px 5px;
+        margin: 0 0 30px;
+        font-size: 9px;
+    }
+    #pricing-area {
+        padding: 50px 0 45px;
+    }
+    .ribbon {
+        left: -95px;
+        top: 34px;
+    }
+    #video-area {
+        padding: 50px 0 60px;
+    }
+    .team-single img {
+        width: 100%;
+    }
+    #team-area {
+        padding: 50px 0 45px;
+    }
+    #testimonial-area {
+        padding: 55px 0 95px;
+    }
+    #counter-area {
+        padding: 60px 0 10px;
+    }
+    .counter-single {
+        margin: 0 0 40px;
+    }
+    .counter-single p {
+        font-size: 12px;
+    }
+    #blog-area {
+        padding: 50px 0 40px;
+    }
+    #contact-area {
+        padding: 50px 0 60px;
+    }
+    .contact-content {
+        padding: 30px 15px 15px;
+        margin: 0
+    }
+    .contact-form #name {
+        margin: 0 0 15px;
+    }
+    .contact-info {
+        padding-left: 0;
+        margin: 30px 0 0
+    }
+    .blog-sidebar {
+        margin: 0 0 30px;
+        padding: 20px 10px 0
+    }
+    .blog-wrap {
+        padding: 60px 0 35px;
+    }
+    .page-title {
+        padding: 120px 0 40px;
+    }
+    .breadcrumb {
+        padding-top: 0;
+    }
+    .pagination > li > a,
+    .pagination > li:first-child > a,
+    .pagination > li:last-child > a {
+        width: 36px;
+        height: 36px;
+        line-height: 22px;
+    }
+    .blog-details-wrap {
+        padding: 60px 0;
+    }
+    .comment-form #name {
+        margin-bottom: 15px;
+    }
+}
