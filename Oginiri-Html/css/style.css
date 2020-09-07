@@ -1,0 +1,698 @@
+
+/*Header Style*/
+header{
+    background: black;
+}
+header .navbar-dark .navbar-nav .nav-link{
+    color: #ffffff;
+    padding: 0.5rem 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bg-dark {
+    background-color: #000 !important;
+}
+.header-logo{
+    max-height: 55px;
+}
+.wallet-icon{
+    width: 25px;
+    margin-right: 10px;
+}
+.wallet-btn{
+    cursor: pointer;
+}
+.wallet-btn span{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 0.85);
+}
+.nav-wrapper, .footer-wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.navbar{
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, 1);
+    border-color: transparent;
+}
+
+/*Main Content Style*/
+body{
+    background: #FAFAFA;
+    color: #000;
+}
+.blue-color{
+    color: #379BFF;
+}
+.green-color{
+    color: #009714;
+}
+.grey-color{
+    color: #777777;
+}
+.body-content{
+    padding: 80px 0;
+}
+.page-header-logo{
+    max-width: 100%;
+    max-height: 150px;
+}
+.header-grid-item{
+    background: white;
+    box-shadow: 0 5px 9px 0 #ddd;
+}
+.page-header-content .header-grid-item h4{
+    color: #444;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    background: #F1F1F1;
+    font-weight: bold;
+    font-size: 20px;
+}
+.large-price{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 35px 10px;
+}
+.small-price{
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+}
+.small-price-item{
+    flex-wrap: wrap;
+}
+.small-price-item > span{
+    width: 50%;
+    text-align: left;
+}
+.price-label{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.price-value{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.pool-content{
+    padding-top: 50px;
+}
+.pool-content-header > span{
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.pool-content-header{
+    margin-bottom: 15px;
+}
+.pool-image{
+    width: 45px;
+    margin-right: 20px;
+}
+.pool-badge{
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    width: 20px;
+}
+.pool-name b{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+}
+.pool-name span{
+    font-size: 14px;
+    line-height: 1;
+}
+.staked-price, .total-price{
+    font-size: 24px;
+    padding: 0 15px;
+}
+.total-price{
+    font-weight: bold;
+    width: 35%;
+    text-align: center;
+}
+.pool-name{
+    width: 30%;
+    justify-content: center;
+    padding: 0 15px;
+}
+.staked-price{
+    width: 35%;
+    text-align: center;
+}
+.w-30{
+    width: 30%;
+}
+.w-35{
+    width: 35%;
+}
+.pool-item{
+    width: 100%;
+    padding: 25px 0;
+    background: white;
+}
+.pool-item-wrapper{
+    background: #F1F1F1;
+    box-shadow: 0 5px 9px 0 #ddd;
+    margin-bottom: 30px;
+}
+.pool-item-bottom span{
+    padding: 12px 10px;
+}
+.pool-item-bottom{
+    border-top: 1px solid #ddd;
+}
+.mobile-wallet .wallet-btn{
+    display: none;
+}
+button:focus {
+    outline: none;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(../images/menu.png);
+}
+.navbar-dark button[aria-expanded="true"] .navbar-toggler-icon {
+    background-image: url(../images/menu-close.png);
+}
+.sidebar{
+    position: fixed;
+    width: 300px;
+    top: 81px;
+    transition: all ease 0.8s;
+    right: -300px;
+    opacity: 1;
+    background: black;
+    padding: 80px 40px 40px;
+    height: calc(100vh - 81px);
+    z-index: 99;
+    overflow-y: auto;
+}
+.sidebar.show{
+    transition: all ease 0.8s;
+    right: 0;
+    opacity: 1;
+}
+.sidebar-close{
+    top: -50px;
+    width: 30px;
+    right: -15px;
+    cursor: pointer;
+}
+.sidebar button{
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #FFFFFF;
+    background-position: left center;
+    background-size: auto 100%;
+    padding: 15px 10px;
+    color: #000;
+    border: none !important;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.sidebar button.deactivate-btn{
+    color: #D42B2B;
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+.meta-btn{
+    background-image: url("../images/meta-icon.png");
+}
+.trezor-btn{
+    background-image: url("../images/trezor-icon.png");
+}
+.trust-btn{
+    background-image: url("../images/trust-icon.png");
+}
+.square-btn{
+    background-image: url("../images/square-icon.png");
+}
+body.open-sidebar{
+    overflow: hidden;
+}
+body:after{
+    opacity: 0;
+    background: rgba(0, 0, 0, 0);
+    content: '';
+    z-index: -1;
+    transition: all ease 0.8s;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+body.open-sidebar:after{
+    content: '';
+    position: absolute;
+    z-index: 9;
+    opacity: 1;
+    transition: all ease 0.8s;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+.farm-btn{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 8px 35px;
+    background: black;
+    border: none !important;
+    cursor: pointer;
+}
+.custom-tab{
+    margin-top: 20px;
+}
+.custom-tab .nav-link{
+    color: #888;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.custom-tab .nav-link.active{
+    color: #000;
+    background: url("../images/tab-icon.png") no-repeat left center;
+    background-size: 20px;
+    background-position-x: 5px;
+}
+.tab-content .pool-content{
+    padding-top: 25px;
+}
+.page-header-content h4{
+    font-size: 36px;
+}
+.vip-title{
+    font-size: 22px;
+}
+.pool-name.w-65{
+    width: 65%;
+    padding: 0 50px;
+    justify-content: start;
+}
+.vault-icon{
+    width: 100%;
+    max-width: 100px;
+}
+.page-header-text{
+    margin-bottom: 0;
+    padding: 15px 0;
+    text-align: left;
+    font-size: 17px;
+}
+.vault-item{
+    background: white;
+    padding: 20px;
+    cursor: pointer;
+}
+.vault-item h5{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.vault-item h5 img{
+    vertical-align: top;
+    margin-top: 3px;
+    width: 15px;
+}
+.vault-item h3{
+    font-size: 35px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+.vault-btn{
+    padding: 0 15px;
+}
+.vault-btn button{
+    border: none !important;
+    position: relative;
+    padding: 7px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    min-width: 120px;
+    text-align: center;
+}
+.vault-farm-btn{
+    color: white;
+    background: black;
+    margin-right: 50px;
+}
+.vault-unfarm-btn{
+    color: #000;
+    background: #D5D4D4;
+}
+.vault-balance{
+    padding: 0 30px;
+}
+.balance-detail{
+    width: 65%;
+}
+.balance-value{
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.balance-value img{
+    width: 25px;
+    margin-top: -5px;
+}
+.balance-value span{
+    font-size: 22px;
+    font-weight: bold;
+}
+.vault-item-bottom{
+    padding: 20px 50px;
+    background: #F1F1F1;
+}
+.balance-detail p{
+    font-weight: bold;
+}
+.balance-detail p span{
+    color: white;
+    padding: 5px 8px;
+    display: inline-block;
+    background: #DF3434;
+    line-height: 1;
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+.bottom-farm-btn{
+    width: 180px;
+    text-align: center;
+    background: black;
+    color: #fff;
+    padding: 8px;
+    border: none !important;
+    margin-bottom: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bottom-close-btn{
+    width: 180px;
+    text-align: center;
+    background: white;
+    color: #000;
+    padding: 8px;
+    border: none !important;
+    font-size: 20px;
+    cursor: pointer;
+}
+.d-flex.hidden{
+    display: none !important;
+}
+.vault-farm-btn:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 44px solid black;
+    border-right: 47px solid transparent;
+    top: 0;
+    left: 100%;
+}
+.vault-unfarm-btn:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 44px solid #D5D4D4;
+    border-left: 47px solid transparent;
+    top: 0;
+    right: 100%;
+}
+
+
+
+
+/*Footer Style*/
+.footer-logo{
+    width: 100%;
+    padding-right: 40px;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 40px 0;
+}
+.footer-menu{
+    list-style: none;
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid #777;
+}
+.footer-menu li{
+
+}
+.footer-menu li a{
+    color: white;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+.footer-social-link{
+    transition: all ease 0.5s;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid white;
+    background: white;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    text-align: center;
+}
+.footer-social-link:hover{
+    transition: all ease 0.5s;
+    color: white;
+    background: black;
+}
+.footer-social-link i{
+    line-height: 30px;
+}
+
+
+
+
+/*Responsive CSS*/
+
+@media (min-width: 1201px){
+    .page-header-content{
+        padding: 0 50px;
+    }
+
+}
+@media (max-width: 991px){
+    .pool-name {
+        padding: 0 10px;
+    }
+    .pool-image {
+        width: 35px;
+        margin-right: 15px;
+    }
+    .pool-badge {
+        top: -5px;
+        right: 5px;
+        width: 15px;
+    }
+    .pool-name b {
+        font-size: 1.2rem;
+    }
+    .pool-name span {
+        font-size: 12px;
+    }
+    .staked-price, .total-price {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .pool-item-bottom span {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .pool-item {
+        padding: 20px 0;
+    }
+    header .navbar-dark .navbar-nav .nav-link {
+        padding: 0.5rem 0;
+    }
+    .wallet-btn{
+        display: none;
+    }
+    .mobile-wallet .wallet-btn{
+        display: block;
+        margin-right: 15px;
+    }
+    .farm-btn {
+        font-size: 18px;
+    }
+    .pool-name.w-65 {
+        padding: 0 30px;
+    }
+    .vault-balance {
+        padding: 0 10px;
+    }
+    .vault-item h3 {
+        font-size: 30px;
+    }
+    .vault-btn {
+        padding: 0;
+    }
+    .vault-item-bottom {
+        padding: 20px 20px;
+    }
+    .page-header-text {
+        font-size: 15px;
+    }
+}
+@media (max-width: 767px){
+    .pool-content-header > span {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    .pool-image {
+        width: 30px;
+        margin-right: 10px;
+    }
+    .pool-name b {
+        font-size: 1rem;
+    }
+    .pool-name span {
+        font-size: 10px;
+    }
+    .staked-price, .total-price {
+        font-size: 18px;
+    }
+    .footer-logo {
+        padding-right: 0;
+        max-width: 250px;
+        margin: 0 auto 40px;
+        display: block;
+    }
+    .body-content {
+        padding: 60px 0;
+    }
+    .farm-btn {
+        font-size: 17px;
+        padding: 5px 20px;
+    }
+    .pool-name.w-65 {
+        padding: 0 20px;
+    }
+    .vip-title {
+        font-size: 17px;
+    }
+    .page-header-content h4 {
+        font-size: 30px;
+    }
+    .custom-tab .nav-link {
+        font-size: 18px;
+    }
+    .vault-item h5 {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .vault-item h5 img {
+        margin-top: 0;
+    }
+    .vault-balance {
+        padding: 0;
+    }
+    .vault-btn button {
+        border: none !important;
+        position: relative;
+        padding: 8px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        min-width: 70px;
+        text-align: center;
+    }
+    .vault-farm-btn {
+        margin-right: 30px;
+    }
+    .vault-farm-btn:after {
+        border-bottom: 37px solid black;
+        border-right: 27px solid transparent;
+    }
+    .vault-unfarm-btn:before {
+        border-top: 37px solid #D5D4D4;
+        border-left: 27px solid transparent;
+    }
+    .vault-item h3 {
+        font-size: 26px;
+    }
+    .balance-value span {
+        font-size: 20px;
+    }
+    .balance-value img {
+        width: 20px;
+        margin-top: -4px;
+    }
+    .bottom-farm-btn, .bottom-close-btn{
+        width: 140px;
+        font-size: 16px;
+    }
+    .page-header-text {
+        font-size: 18px;
+        text-align: center;
+    }
+    .sidebar button {
+        padding: 12px 10px;
+    }
+}
+@media (max-width: 575px){
+    .pool-content{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .pool-content-inner{
+        min-width: 540px;
+
+    }
+    .body-content {
+        padding: 50px 0;
+    }
+    .nav-wrapper, .footer-wrapper {
+        padding: 0;
+    }
+    .header-logo {
+        max-height: 45px;
+    }
+    .page-header-logo {
+        max-height: 120px;
+    }
+    .wallet-btn span{
+        display: none;
+    }
+    .mobile-wallet .wallet-btn {
+        margin-right: 0;
+    }
+    .sidebar {
+        top: 71px;
+        height: calc(100vh - 71px);
+    }
+    .farm-btn {
+        font-size: 16px;
+    }
+    .page-header-content h4 {
+        font-size: 26px;
+    }
+    .custom-tab .nav-link {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+    .custom-tab .nav-link.active {
+        background: url(../images/tab-icon.png) no-repeat left center;
+        background-size: 17px;
+        background-position-x: 0;
+    }
+}

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <title>Vote - Onigiri</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home">
+<header id="header">
+    <div class="container-fluid">
+        <div class="nav-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">
+                    <img class="header-logo" src="images/main-logo.png">
+                </a>
+                <div class="mobile-wallet d-flex align-items-center">
+                    <div class="form-inline wallet-btn">
+                        <div class="d-flex align-items-center">
+                            <img class="wallet-icon" src="images/wallet-icon.png">
+                            <span class="text-uppercase">Connect Wallet</span>
+                        </div>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="stake.html">Stake</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="vote.html">Vote</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="vault.html">Vault</a>
+                        </li>
+                    </ul>
+                    <div class="form-inline wallet-btn">
+                        <div class="d-flex align-items-center">
+                            <img class="wallet-icon" src="images/wallet-icon.png">
+                            <span class="text-uppercase">Connect Wallet</span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section class="body-content">
+    <div class="container">
+        <div class="page-header-content text-center">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <img src="images/Onigiri-logo-black.png" class="page-header-logo">
+                </div>
+                <div class="col-lg-7 col-md-8 text-center">
+                    <h4 class="pb-2 pt-5 mb-0"><b class="text-uppercase">What do you want to vote?</b></h4>
+                </div>
+            </div>
+        </div>
+        <ul class="nav custom-tab justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item mr-4" role="presentation">
+                <a class="nav-link active" id="pull-tab" data-toggle="tab" href="#pool-vote" role="tab" aria-controls="pool-vote" aria-selected="true">POOL VOTING</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="vip-tab" data-toggle="tab" href="#vip-vote" role="tab" aria-controls="vip-vote" aria-selected="false">VIP VOTING</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="pool-vote" role="tabpanel" aria-labelledby="pull-tab">
+                <div class="pool-content">
+                    <div class="pool-content-inner">
+                        <div class="pool-content-header d-flex flex-wrap align-items-center">
+                            <span class="text-uppercase text-center w-30">Pool</span>
+                            <span class="text-uppercase text-center w-35">Contract</span>
+                            <span class="text-uppercase text-center w-35"></span>
+                        </div>
+                        <div class="pool-item-wrapper w-100">
+                            <div class="pool-item d-flex flex-wrap align-items-center">
+                                <div class="pool-name d-flex align-items-center">
+                                    <div class="position-relative">
+                                        <img src="images/rect-icon.png" class="pool-image">
+                                        <img src="images/tri-icon.png" class="pool-badge">
+                                    </div>
+                                    <div>
+                                        <b>Seed Pool V2</b><br><span class="grey-color text-uppercase">Usdt.usdc.tusd.dai</span>
+                                    </div>
+                                </div>
+                                <div class="staked-price green-color">
+                                    0xC2D5...0AC8
+                                </div>
+                                <div class="total-price blue-color">
+                                    <button class="farm-btn text-uppercase">Vote</button>
+                                </div>
+                            </div>
+                            <div class="pool-item-bottom d-flex align-items-center justify-content-around">
+                                <span class="text-uppercase">Hourly: 0.01%</span>
+                                <span class="text-uppercase">Daily: 0.29%</span>
+                                <span class="text-uppercase">Weekly: 2.01%</span>
+                                <span class="text-uppercase">Apy (unstable): 107,05%</span>
+                            </div>
+                        </div>
+                        <div class="pool-item-wrapper w-100">
+                            <div class="pool-item d-flex flex-wrap align-items-center">
+                                <div class="pool-name d-flex align-items-center">
+                                    <div class="position-relative">
+                                        <img src="images/rect-icon.png" class="pool-image">
+                                        <img src="images/tri-icon.png" class="pool-badge">
+                                    </div>
+                                    <div>
+                                        <b>Seed Pool V2</b><br><span class="grey-color text-uppercase">Usdt.usdc.tusd.dai</span>
+                                    </div>
+                                </div>
+                                <div class="staked-price green-color">
+                                    0xC2D5...0AC8
+                                </div>
+                                <div class="total-price blue-color">
+                                    <button class="farm-btn text-uppercase">Vote</button>
+                                </div>
+                            </div>
+                            <div class="pool-item-bottom d-flex align-items-center justify-content-around">
+                                <span class="text-uppercase">Hourly: 0.01%</span>
+                                <span class="text-uppercase">Daily: 0.29%</span>
+                                <span class="text-uppercase">Weekly: 2.01%</span>
+                                <span class="text-uppercase">Apy (unstable): 107,05%</span>
+                            </div>
+                        </div>
+                        <div class="pool-item-wrapper w-100">
+                            <div class="pool-item d-flex flex-wrap align-items-center">
+                                <div class="pool-name d-flex align-items-center">
+                                    <div class="position-relative">
+                                        <img src="images/rect-icon.png" class="pool-image">
+                                        <img src="images/tri-icon.png" class="pool-badge">
+                                    </div>
+                                    <div>
+                                        <b>Seed Pool V2</b><br><span class="grey-color text-uppercase">Usdt.usdc.tusd.dai</span>
+                                    </div>
+                                </div>
+                                <div class="staked-price green-color">
+                                    0xC2D5...0AC8
+                                </div>
+                                <div class="total-price blue-color">
+                                    <button class="farm-btn text-uppercase">Vote</button>
+                                </div>
+                            </div>
+                            <div class="pool-item-bottom d-flex align-items-center justify-content-around">
+                                <span class="text-uppercase">Hourly: 0.01%</span>
+                                <span class="text-uppercase">Daily: 0.29%</span>
+                                <span class="text-uppercase">Weekly: 2.01%</span>
+                                <span class="text-uppercase">Apy (unstable): 107,05%</span>
+                            </div>
+                        </div>
+                        <div class="pool-item-wrapper w-100">
+                            <div class="pool-item d-flex flex-wrap align-items-center">
+                                <div class="pool-name d-flex align-items-center">
+                                    <div class="position-relative">
+                                        <img src="images/rect-icon.png" class="pool-image">
+                                        <img src="images/tri-icon.png" class="pool-badge">
+                                    </div>
+                                    <div>
+                                        <b>Seed Pool V2</b><br><span class="grey-color text-uppercase">Usdt.usdc.tusd.dai</span>
+                                    </div>
+                                </div>
+                                <div class="staked-price green-color">
+                                    0xC2D5...0AC8
+                                </div>
+                                <div class="total-price blue-color">
+                                    <button class="farm-btn text-uppercase">Vote</button>
+                                </div>
+                            </div>
+                            <div class="pool-item-bottom d-flex align-items-center justify-content-around">
+                                <span class="text-uppercase">Hourly: 0.01%</span>
+                                <span class="text-uppercase">Daily: 0.29%</span>
+                                <span class="text-uppercase">Weekly: 2.01%</span>
+                                <span class="text-uppercase">Apy (unstable): 107,05%</span>
+                            </div>
+                        </div>
+                        <div class="pool-item-wrapper w-100">
+                            <div class="pool-item d-flex flex-wrap align-items-center">
+                                <div class="pool-name d-flex align-items-center">
+                                    <div class="position-relative">
+                                        <img src="images/rect-icon.png" class="pool-image">
+                                        <img src="images/tri-icon.png" class="pool-badge">
+                                    </div>
+                                    <div>
+                                        <b>Seed Pool V2</b><br><span class="grey-color text-uppercase">Usdt.usdc.tusd.dai</span>
+                                    </div>
+                                </div>
+                                <div class="staked-price green-color">
+                                    0xC2D5...0AC8
+                                </div>
+                                <div class="total-price blue-color">
+                                    <button class="farm-btn text-uppercase">Vote</button>
+                                </div>
+                            </div>
+                            <div class="pool-item-bottom d-flex align-items-center justify-content-around">
+                                <span class="text-uppercase">Hourly: 0.01%</span>
+                                <span class="text-uppercase">Daily: 0.29%</span>
+                                <span class="text-uppercase">Weekly: 2.01%</span>
+                                <span class="text-uppercase">Apy (unstable): 107,05%</span>
+                            </div>
+                        </div>
+                        <div class="pool-item-wrapper w-100">
+                            <div class="pool-item d-flex flex-wrap align-items-center">
+                                <div class="pool-name d-flex align-items-center">
+                                    <div class="position-relative">
+                                        <img src="images/rect-icon.png" class="pool-image">
+                                        <img src="images/tri-icon.png" class="pool-badge">
+                                    </div>
+                                    <div>
+                                        <b>Seed Pool V2</b><br><span class="grey-color text-uppercase">Usdt.usdc.tusd.dai</span>
+                                    </div>
+                                </div>
+                                <div class="staked-price green-color">
+                                    0xC2D5...0AC8
+                                </div>
+                                <div class="total-price blue-color">
+                                    <button class="farm-btn text-uppercase">Vote</button>
+                                </div>
+                            </div>
+                            <div class="pool-item-bottom d-flex align-items-center justify-content-around">
+                                <span class="text-uppercase">Hourly: 0.01%</span>
+                                <span class="text-uppercase">Daily: 0.29%</span>
+                                <span class="text-uppercase">Weekly: 2.01%</span>
+                                <span class="text-uppercase">Apy (unstable): 107,05%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane fade" id="vip-vote" role="tabpanel" aria-labelledby="vip-tab">
+                <div class="pool-content">
+                    <div class="pool-content-inner">
+                        <div class="pool-content-header d-flex flex-wrap align-items-center">
+                            <span class="text-uppercase text-center w-30">Proposal</span>
+                            <span class="text-uppercase text-center w-35"></span>
+                            <span class="text-uppercase text-center w-35"></span>
+                        </div>
+                        <div class="pool-item-wrapper w-100">
+                            <div class="pool-item d-flex flex-wrap align-items-center">
+                                <div class="pool-name w-65 d-flex align-items-center">
+                                    <div class="vip-title">
+                                        1. VIP 2: Rescuing funds left in Pool 0
+                                    </div>
+                                </div>
+                                <div class="total-price blue-color">
+                                    <button class="farm-btn text-uppercase">Vote</button>
+                                </div>
+                            </div>
+                            <div class="pool-item-bottom d-flex align-items-center justify-content-center">
+                                <span class="grey-color">Voting ends in 01 Sep,15:00 +01:00 (2 days)</span>
+                            </div>
+                        </div>
+                        <div class="pool-item-wrapper w-100">
+                            <div class="pool-item d-flex flex-wrap align-items-center">
+                                <div class="pool-name w-65 d-flex align-items-center">
+                                    <div class="vip-title">
+                                        2. VIP 2: Rescuing funds left in Pool 0
+                                    </div>
+                                </div>
+                                <div class="total-price blue-color">
+                                    <button class="farm-btn text-uppercase">Vote</button>
+                                </div>
+                            </div>
+                            <div class="pool-item-bottom d-flex align-items-center justify-content-center">
+                                <span class="grey-color">Voting ends in 01 Sep,15:00 +01:00 (2 days)</span>
+                            </div>
+                        </div>
+                        <div class="pool-item-wrapper w-100">
+                            <div class="pool-item d-flex flex-wrap align-items-center">
+                                <div class="pool-name w-65 d-flex align-items-center">
+                                    <div class="vip-title">
+                                        3. VIP 2: Rescuing funds left in Pool 0
+                                    </div>
+                                </div>
+                                <div class="total-price blue-color">
+                                    <button class="farm-btn text-uppercase">Vote</button>
+                                </div>
+                            </div>
+                            <div class="pool-item-bottom d-flex align-items-center justify-content-center">
+                                <span class="grey-color">Voting ends in 01 Sep,15:00 +01:00 (2 days)</span>
+                            </div>
+                        </div>
+                        <div class="pool-item-wrapper w-100">
+                            <div class="pool-item d-flex flex-wrap align-items-center">
+                                <div class="pool-name w-65 d-flex align-items-center">
+                                    <div class="vip-title">
+                                        4. VIP 2: Rescuing funds left in Pool 0
+                                    </div>
+                                </div>
+                                <div class="total-price blue-color">
+                                    <button class="farm-btn text-uppercase">Vote</button>
+                                </div>
+                            </div>
+                            <div class="pool-item-bottom d-flex align-items-center justify-content-center">
+                                <span class="grey-color">Voting ends in 01 Sep,15:00 +01:00 (2 days)</span>
+                            </div>
+                        </div>
+                        <div class="pool-item-wrapper w-100">
+                            <div class="pool-item d-flex flex-wrap align-items-center">
+                                <div class="pool-name w-65 d-flex align-items-center">
+                                    <div class="vip-title">
+                                        5. VIP 2: Rescuing funds left in Pool 0
+                                    </div>
+                                </div>
+                                <div class="total-price blue-color">
+                                    <button class="farm-btn text-uppercase">Vote</button>
+                                </div>
+                            </div>
+                            <div class="pool-item-bottom d-flex align-items-center justify-content-center">
+                                <span class="grey-color">Voting ends in 01 Sep,15:00 +01:00 (2 days)</span>
+                            </div>
+                        </div>
+                        <div class="pool-item-wrapper w-100">
+                            <div class="pool-item d-flex flex-wrap align-items-center">
+                                <div class="pool-name w-65 d-flex align-items-center">
+                                    <div class="vip-title">
+                                        6. VIP 2: Rescuing funds left in Pool 0
+                                    </div>
+                                </div>
+                                <div class="total-price blue-color">
+                                    <button class="farm-btn text-uppercase">Vote</button>
+                                </div>
+                            </div>
+                            <div class="pool-item-bottom d-flex align-items-center justify-content-center">
+                                <span class="grey-color">Voting ends in 01 Sep,15:00 +01:00 (2 days)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="sidebar">
+    <div class="sidebar-content position-relative">
+        <img class="sidebar-close position-absolute" src="images/menu-close.png">
+        <button class="deactivate-btn">Deactivate</button>
+        <button class="meta-btn">Meta Mask</button>
+        <button class="trezor-btn">Trezor</button>
+        <button class="trust-btn">Trust Wallet</button>
+        <button class="square-btn">Square Link</button>
+        <button class="meta-btn">Meta Mask</button>
+        <button class="trezor-btn">Trezor</button>
+        <button class="trust-btn">Trust Wallet</button>
+        <button class="square-btn">Square Link</button>
+    </div>
+</div>
+
+<footer id="footer">
+    <div class="container-fluid">
+        <div class="footer-wrapper">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-4">
+                    <img src="images/main-logo.png" class="footer-logo">
+                </div>
+                <div class="col-lg-6 col-md-8">
+                    <ul class="d-flex justify-content-around footer-menu">
+                        <li><a href="index.html" class="text-uppercase">Home</a></li>
+                        <li><a href="stake.html" class="text-uppercase">Stake</a></li>
+                        <li><a href="vote.html" class="text-uppercase">Vote</a></li>
+                        <li><a href="vault.html" class="text-uppercase">Vault</a></li>
+                    </ul>
+                    <div class="footer-social d-flex justify-content-center">
+                        <a href="" target="_blank" class="footer-social-link">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social-link">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social-link">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social-link ml-4">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social-link">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social-link">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

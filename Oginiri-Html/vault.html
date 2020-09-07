@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <title>Vault - Onigiri</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home">
+<header id="header">
+    <div class="container-fluid">
+        <div class="nav-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">
+                    <img class="header-logo" src="images/main-logo.png">
+                </a>
+                <div class="mobile-wallet d-flex align-items-center">
+                    <div class="form-inline wallet-btn">
+                        <div class="d-flex align-items-center">
+                            <img class="wallet-icon" src="images/wallet-icon.png">
+                            <span class="text-uppercase">Connect Wallet</span>
+                        </div>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="stake.html">Stake</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="vote.html">Vote</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="vault.html">Vault</a>
+                        </li>
+                    </ul>
+                    <div class="form-inline wallet-btn">
+                        <div class="d-flex align-items-center">
+                            <img class="wallet-icon" src="images/wallet-icon.png">
+                            <span class="text-uppercase">Connect Wallet</span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section class="body-content">
+    <div class="container">
+        <div class="page-header-content text-center">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <img src="images/Onigiri-logo-black.png" class="page-header-logo">
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center mt-4 mt-md-5">
+                <div class="col-md-4 col-xl-3 col-lg-4">
+                    <div class="col-inner">
+                        <p class="grey-color page-header-text">Next Epoch: <b>1 day 20:33:45</b><br>Next Epoch Reward: <b>63000</b></p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-xl-2 col-lg-2">
+                    <div class="col-inner text-center">
+                        <img class="vault-icon" src="images/vault-icon.png">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-lg-4">
+                    <div class="col-inner">
+                        <p class="grey-color page-header-text">Current Epoch Reward: <b>63000</b><br>Your Estimated 24h Reward: <b>0</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pool-content">
+            <div class="pool-content-inner">
+                <div class="pool-content-header d-flex flex-wrap align-items-start">
+                    <span class="text-uppercase text-center w-20 pl-5 ml-4">Proposal</span>
+                </div>
+                <div class="pool-item-wrapper w-100">
+                    <div class="vault-item d-flex flex-wrap justify-content-between align-items-start">
+                        <div class="vault-balance">
+                            <h5 class="text-uppercase grey-color">Your Balance <img src="images/currency-usdt.png"></h5>
+                            <h3 class="text-uppercase">0 usdt</h3>
+                        </div>
+                        <div class="vault-farmed">
+                            <h5 class="text-uppercase grey-color">Currently Farmed</h5>
+                            <h3 class="text-uppercase">0</h3>
+                        </div>
+                        <div class="vault-btn d-flex flex-wrap justify-content-center">
+                            <button class="vault-farm-btn text-uppercase">Farm</button>
+                            <button class="vault-unfarm-btn text-uppercase">UnFarm</button>
+                        </div>
+                    </div>
+                    <div class="vault-item-bottom d-flex align-items-center justify-content-between">
+                        <div class="balance-detail">
+                            <div class="balance-value w-100 d-flex justify-content-between align-items-center">
+                                <span class="grey-color"><img src="images/currency-usdt.png"> 0.00</span>
+                                <span class="text-uppercase">usdt</span>
+                            </div>
+                            <p class="mb-0 text-uppercase">Balance: 0.0000 Usdt <span>MAX</span></p>
+                        </div>
+                        <div class="vault-bottom-btn">
+                            <div class="d-flex flex-column">
+                                <button class="bottom-farm-btn text-uppercase">Farm</button>
+                                <button class="bottom-close-btn text-uppercase">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pool-item-wrapper w-100">
+                    <div class="vault-item d-flex flex-wrap justify-content-between align-items-start">
+                        <div class="vault-balance">
+                            <h5 class="text-uppercase grey-color">Your Balance <img src="images/currency-usdc.png"></h5>
+                            <h3 class="text-uppercase">0 usdc</h3>
+                        </div>
+                        <div class="vault-farmed">
+                            <h5 class="text-uppercase grey-color">Currently Farmed</h5>
+                            <h3 class="text-uppercase">0</h3>
+                        </div>
+                        <div class="vault-btn d-flex flex-wrap justify-content-center">
+                            <button class="vault-farm-btn text-uppercase">Farm</button>
+                            <button class="vault-unfarm-btn text-uppercase">UnFarm</button>
+                        </div>
+                    </div>
+                    <div class="vault-item-bottom d-flex align-items-center justify-content-between hidden">
+                        <div class="balance-detail">
+                            <div class="balance-value w-100 d-flex justify-content-between align-items-center">
+                                <span class="grey-color"><img src="images/currency-usdc.png"> 0.00</span>
+                                <span class="text-uppercase">usdc</span>
+                            </div>
+                            <p class="mb-0 text-uppercase">Balance: 0.0000 Usdc <span>MAX</span></p>
+                        </div>
+                        <div class="vault-bottom-btn">
+                            <div class="d-flex flex-column">
+                                <button class="bottom-farm-btn text-uppercase">Farm</button>
+                                <button class="bottom-close-btn text-uppercase">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pool-item-wrapper w-100">
+                    <div class="vault-item d-flex flex-wrap justify-content-between align-items-start">
+                        <div class="vault-balance">
+                            <h5 class="text-uppercase grey-color">Your Balance <img src="images/currency-tusd.png"></h5>
+                            <h3 class="text-uppercase">0 tusd</h3>
+                        </div>
+                        <div class="vault-farmed">
+                            <h5 class="text-uppercase grey-color">Currently Farmed</h5>
+                            <h3 class="text-uppercase">0</h3>
+                        </div>
+                        <div class="vault-btn d-flex flex-wrap justify-content-center">
+                            <button class="vault-farm-btn text-uppercase">Farm</button>
+                            <button class="vault-unfarm-btn text-uppercase">UnFarm</button>
+                        </div>
+                    </div>
+                    <div class="vault-item-bottom d-flex align-items-center justify-content-between hidden">
+                        <div class="balance-detail">
+                            <div class="balance-value w-100 d-flex justify-content-between align-items-center">
+                                <span class="grey-color"><img src="images/currency-tusd.png"> 0.00</span>
+                                <span class="text-uppercase">tusd</span>
+                            </div>
+                            <p class="mb-0 text-uppercase">Balance: 0.0000 tusd <span>MAX</span></p>
+                        </div>
+                        <div class="vault-bottom-btn">
+                            <div class="d-flex flex-column">
+                                <button class="bottom-farm-btn text-uppercase">Farm</button>
+                                <button class="bottom-close-btn text-uppercase">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pool-item-wrapper w-100">
+                    <div class="vault-item d-flex flex-wrap justify-content-between align-items-start">
+                        <div class="vault-balance">
+                            <h5 class="text-uppercase grey-color">Your Balance <img src="images/currency-dai.png"></h5>
+                            <h3 class="text-uppercase">0 dai</h3>
+                        </div>
+                        <div class="vault-farmed">
+                            <h5 class="text-uppercase grey-color">Currently Farmed</h5>
+                            <h3 class="text-uppercase">0</h3>
+                        </div>
+                        <div class="vault-btn d-flex flex-wrap justify-content-center">
+                            <button class="vault-farm-btn text-uppercase">Farm</button>
+                            <button class="vault-unfarm-btn text-uppercase">UnFarm</button>
+                        </div>
+                    </div>
+                    <div class="vault-item-bottom d-flex align-items-center justify-content-between hidden">
+                        <div class="balance-detail">
+                            <div class="balance-value w-100 d-flex justify-content-between align-items-center">
+                                <span class="grey-color"><img src="images/currency-dai.png"> 0.00</span>
+                                <span class="text-uppercase">dai</span>
+                            </div>
+                            <p class="mb-0 text-uppercase">Balance: 0.0000 Usdc <span>MAX</span></p>
+                        </div>
+                        <div class="vault-bottom-btn">
+                            <div class="d-flex flex-column">
+                                <button class="bottom-farm-btn text-uppercase">Farm</button>
+                                <button class="bottom-close-btn text-uppercase">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class="sidebar">
+    <div class="sidebar-content position-relative">
+        <img class="sidebar-close position-absolute" src="images/menu-close.png">
+        <button class="deactivate-btn">Deactivate</button>
+        <button class="meta-btn">Meta Mask</button>
+        <button class="trezor-btn">Trezor</button>
+        <button class="trust-btn">Trust Wallet</button>
+        <button class="square-btn">Square Link</button>
+        <button class="meta-btn">Meta Mask</button>
+        <button class="trezor-btn">Trezor</button>
+        <button class="trust-btn">Trust Wallet</button>
+        <button class="square-btn">Square Link</button>
+    </div>
+</div>
+
+<footer id="footer">
+    <div class="container-fluid">
+        <div class="footer-wrapper">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-4">
+                    <img src="images/main-logo.png" class="footer-logo">
+                </div>
+                <div class="col-lg-6 col-md-8">
+                    <ul class="d-flex justify-content-around footer-menu">
+                        <li><a href="index.html" class="text-uppercase">Home</a></li>
+                        <li><a href="stake.html" class="text-uppercase">Stake</a></li>
+                        <li><a href="vote.html" class="text-uppercase">Vote</a></li>
+                        <li><a href="vault.html" class="text-uppercase">Vault</a></li>
+                    </ul>
+                    <div class="footer-social d-flex justify-content-center">
+                        <a href="" target="_blank" class="footer-social-link">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social-link">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social-link">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social-link ml-4">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social-link">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social-link">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
